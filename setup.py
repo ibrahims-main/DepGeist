@@ -10,7 +10,7 @@ setup(
     },
     author="Your Name",
     description="A smart dependency checker for Python projects.",
-    long_description=open("README.md").read(),
+    long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/yourname/DepGeist",
     classifiers=[
